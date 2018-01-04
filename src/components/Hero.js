@@ -63,9 +63,9 @@ class Hero extends Component {
               
             <div className="layer2">
               <div className="logoDiv">
-                <div className="lightningDivMargin"></div>
+
                   <div className="theLightningDiv"><Lightning /></div>
-                <div className="lightningDivMargin"></div>
+
               </div>
             </div>
 
@@ -77,11 +77,6 @@ class Hero extends Component {
               </div>
             </div>
 
-            
-
-          </FullScrDiv>
-
-          <FullScrDiv>
           </FullScrDiv>
       </div>
     );
