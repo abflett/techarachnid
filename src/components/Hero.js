@@ -3,6 +3,7 @@ import FullScrDiv from '../components/FullScrDiv'
 import Logo from '../components/hero/logo'
 import './hero/hero.css'
 import Webs from '../components/hero/webs'
+import Lightning from '../components/hero/lightning'
 
 class Hero extends Component {
   constructor() {
@@ -41,26 +42,46 @@ class Hero extends Component {
     return (
       <div>
           <FullScrDiv>
+
+            <div className="shock1">
+            </div>
+
+            <div className="shock2">
+            </div>
+
+            <div className="shock3">
+            </div>
+
             <div className="layer1">
+              <div style={{
+                  transform: this.state.divScale,
+                  transformOrigin: 'top'
+                }}>
+                  <Webs />
+              </div>
             </div>
               
             <div className="layer2">
-              <div style={{
-                transform: this.state.divScale,
-                transformOrigin: 'top'
-              }}>
-                <Webs />
+              <div className="logoDiv">
+                <div className="lightningDivMargin"></div>
+                  <div className="theLightningDiv"><Lightning /></div>
+                <div className="lightningDivMargin"></div>
               </div>
             </div>
 
             <div className="layer3">
               <div className="logoDiv">
                 <div className="logoDivMargin"></div>
-                <div className="theLogoDiv"><Logo /></div>
+                   <div className="theLogoDiv"><Logo /></div>
                 <div className="logoDivMargin"></div>
               </div>
             </div>
 
+            
+
+          </FullScrDiv>
+
+          <FullScrDiv>
           </FullScrDiv>
       </div>
     );
