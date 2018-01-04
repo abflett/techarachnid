@@ -1,0 +1,120 @@
+.layer1 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.layer2 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.layer3 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+
+.test {
+  width: 10%;
+  z-index: -1;
+  height: 1000px;
+  background-color: rgb(0, 32, 138);
+  animation: movTest infinite 6s linear;
+}
+
+.test2 {
+
+  width: 10%;
+  height: 1000px;
+  background-color: rgb(2, 73, 0);
+  animation: movTest3 infinite 6s linear;
+}
+
+.test3 {
+  width: 10%;
+  height: 1000px;
+  background-color: rgb(0, 44, 65);
+  animation: movTest2 infinite 5s linear;
+}
+
+.test4 {
+  width: 10%;
+  height: 1000px;
+  background-color: rgb(68, 0, 0);
+  animation: movTest4 infinite 5s linear;
+}
+
+.talogo {
+  width: 100%;
+  fill: rgb(105, 105, 105);
+  animation: pulseColor infinite 5s linear;
+}
+
+.taWebs {
+  width: 100%;
+  height: 100%;
+  fill: rgb(28, 0, 41);
+  stroke:#530043;
+  stroke-width:1;
+  animation: pulseColor2 infinite 5s linear;
+}
+
+.logoDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.theLogoDiv {
+  width: 80%;
+}
+
+.logoDivMargin{
+  width: 100%;
+}
+
+.hideObject {
+  display: none;
+}
+
+@keyframes movTest {
+  0%{ transform: translate(0, -1000px); background-color: rgb(255, 0, 0);}
+100%{ transform: translate(0, 1500px); background-color:rgb(21, 255, 0);}
+}
+
+@keyframes movTest2 {
+  0%{ transform: translate(0, -1000px); background-color: rgb(25, 0, 255);}
+100%{ transform: translate(0, 1500px); background-color:rgb(255, 251, 0);}
+}
+
+@keyframes movTest3 {
+  0%{ transform: translate(0, 1500px); background-color: rgb(255, 0, 255);}
+100%{ transform: translate(0, -1000px); background-color:rgb(0, 255, 234);}
+}
+
+@keyframes movTest4 {
+  0%{ transform: translate(0, 1500px); background-color: rgb(0, 255, 34);}
+100%{ transform: translate(0, -1000px); background-color:rgb(0, 47, 255);}
+}
+
+@keyframes pulseColor {
+  0%{ fill: rgb(170, 170, 170);}
+  50%{ fill:rgb(92, 92, 92);}
+  100%{ fill: rgb(170, 170, 170);}
+}
+
+@keyframes pulseColor2 {
+  0%{ fill: rgb(12, 0, 17);}
+  50%{ fill:rgb(38, 0, 48);}
+  100%{ fill: rgb(12, 0, 17);}
+}

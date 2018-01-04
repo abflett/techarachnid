@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import './Home.css';
-
+import Hero from '../../components/Hero';
 
 class Home extends Component {
+  constructor(props) {
+    super();
+ 
+    this.state = {
+      isFull: false,
+    };
+  }
+ 
   render() {
     return (
-        <div>
-          <h1>Home</h1>
-        </div>
+      <div>
+          <Hero />
+      </div>
     );
   }
 }

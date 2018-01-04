@@ -1,0 +1,36 @@
+.newThing{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation: App-logo-mov infinite 5s linear;
+
+}
+
+.theThing {
+    fill: rgb(27, 27, 27);
+    animation: App-logo-spin infinite 5s linear;
+
+}
+
+.theThing:hover {
+    fill: rgb(255, 255, 255);
+    animation: App-logo-spin2 infinite 5s linear;
+}
+
+@keyframes App-logo-spin {
+    0%{ transform: rotate(0deg); fill:rgb(12, 12, 12);}
+   50%{ transform: rotate(180deg); fill:rgb(136, 136, 136); }
+  100%{ transform: rotate(360deg); fill:rgb(12, 12, 12);}
+}
+
+@keyframes App-logo-spin2 {
+    0%{ transform: rotate(0deg); fill:rgb(255, 0, 0);}
+   50%{ transform: rotate(180deg); fill:rgb(25, 0, 255); }
+  100%{ transform: rotate(360deg); fill:rgb(21, 255, 0);}
+}
+
+@keyframes App-logo-mov {
+    0%{ width: 1px; height: 1px;}
+   50%{ width: 1000px; height: 1000px;}
+  100%{ width: 1px; height: 1px;}
+}
