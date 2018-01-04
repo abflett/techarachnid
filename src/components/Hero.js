@@ -42,7 +42,6 @@ class Hero extends Component {
       <div>
           <FullScrDiv>
             <div className="layer1">
-              <div><p>width: {this.state.width} height: {this.state.height}</p> <p>scale: {this.state.scale} divScale: {this.state.divScale}</p></div>
             </div>
               
             <div className="layer2">
@@ -63,11 +62,6 @@ class Hero extends Component {
             </div>
 
           </FullScrDiv>
-
-          <FullScrDiv>
-            <h1>Hello</h1>
-          </FullScrDiv>
-          <div><h1>Hello Again</h1></div>
       </div>
     );
   }
