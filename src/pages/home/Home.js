@@ -6,10 +6,12 @@ class Home extends Component {
   constructor() {
     super();
     this.scrResize = this.scrResize.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
     this.state = {height: window.innerHeight,
                   width: window.innerWidth,
                   scale: window.innerHeight / window.innerWidth,
-                  divScale: 'scale(1)'};
+                  divScale: 'scale(1)',
+                  scrollPos: 0};
     
   }
 
@@ -27,13 +29,24 @@ class Home extends Component {
     }else{
       this.setState({divScale: 'scale(1)'});
     }
-    console.log(this.state.scale);
-    console.log(this.state.divScale);
+  }
+
+  handleScroll() {
+    const scrolls = window.pageYOffset || document.documentElement.scrollTop;
+    this.setState({scrollPos: scrolls});
+    console.log(this.state.scrollPos);
   }
 
   componentDidMount() {
     window.addEventListener('resize', this.scrResize);
+    window.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
     this.scrResize();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.scrResize);
+    window.removeEventListener('scroll', this.handleScroll);
   }
  
   render() {

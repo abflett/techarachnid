@@ -31,7 +31,7 @@ class Hero extends Component {
               
             <div className="layer2">
               <div className="logoDiv">
-                  <div className="theLightningDiv"><Lightning /></div>
+                  <div className="theLogoDiv"><Lightning /></div>
               </div>
             </div>
 

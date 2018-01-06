@@ -23,14 +23,17 @@
 
 .layer5 {
   fill: #00aad4;
+  animation: wave1 infinite 5s linear;
 }
 
 .layer6 {
   fill: #0088aa;
+  animation: wave2 infinite 5s linear;
 }
 
 .layer7 {
   fill: #164450;
+  animation: wave3 infinite 5s linear;
 }
 
 .layer8 {
@@ -71,10 +74,31 @@
 
 .layer16 {
   fill: #006680;
+  animation: dripMove infinite 5s linear;
 }
 
 
-@keyframes move1 {
-  0%{transform: translate(0px, 0px);}
-  100%{transform: translate(20px, 0px);}
+@keyframes dripMove {
+  0%{transform: translate(0px, -10%);}
+  90%{transform: translate(0px, -10%);}
+  100%{transform: translate(0px, 2300%);}
 }
+
+@keyframes wave1 {
+  0%{transform: translate(0%, 0px);}
+  50%{transform: translate(-20%, 0px);}
+  100%{transform: translate(0%, 0px);}
+}
+
+@keyframes wave2 {
+  0%{transform: translate(0%, 0px);}
+  50%{transform: translate(20%, 0px);}
+  100%{transform: translate(0%, 0px);}
+}
+
+@keyframes wave3 {
+  0%{transform: translate(0%, 0px);}
+  50%{transform: translate(-20%, 0px);}
+  100%{transform: translate(0%, 0px);}
+}
+
