@@ -23,6 +23,7 @@
 
 .layer4 {
   fill: #e9c6af;
+  animation: wallColor infinite 10s linear;
 }
 
 .layer5 {
@@ -107,5 +108,18 @@
   0%{transform: translate(0%, 0px);}
   50%{transform: translate(-20%, 0px);}
   100%{transform: translate(0%, 0px);}
+}
+
+@keyframes wallColor {
+  0%{fill: #e9c6af;}
+  10%{fill: #d4c5c4;}
+  25%{fill: #e9c6af;}
+  39%{fill: #d4c5c4;}
+  45%{fill: #adb5c7;}
+  50%{fill: #d4c5c4;}
+  60%{fill: #d4c5c4;}
+  66%{fill: #e9c6af;}
+  70%{fill: #d4c5c4;}
+  100%{fill: #e9c6af;}
 }
 

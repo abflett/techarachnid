@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hero from '../../components/Hero';
-import Cave from '../../components/Cave'
+import Cave from '../../components/Cave';
+import Capture from '../../components/Capture'
 
 class Home extends Component {
   constructor() {
@@ -53,6 +54,7 @@ class Home extends Component {
       <div>
           <Hero {...this.state} />
           <Cave {...this.state} />
+          <Capture {...this.state} />
       </div>
     );
   }
