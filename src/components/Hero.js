@@ -6,38 +6,9 @@ import Lightning from '../components/hero/lightning'
 import './hero/hero.css'
 
 class Hero extends Component {
-  constructor() {
-    super();
-    this.scrResize = this.scrResize.bind(this);
-    this.state = {height: window.innerHeight,
-                  width: window.innerWidth,
-                  scale: window.innerHeight / window.innerWidth,
-                  divScale: 'scale(1)'};
-    
-  }
-
-  scrResize(){
-    const height = window.innerHeight,
-          width = window.innerWidth;
-    const scale = height / width;
-
-    this.setState({height, width, scale});
-
-    if(this.state.scale > 0.72){
-      this.setState({divScale: "scale(" + this.state.scale * 2.2 + ")"});
-    }else{
-      this.setState({divScale: 'scale(1)'});
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('resize', this.scrResize);
-    this.scrResize();
-  }
-
   render() {
     return (
-          <FullScrDiv>
+          <FullScrDiv {...this.props} >
             <div className="shock1">
             </div>
 
@@ -49,9 +20,11 @@ class Hero extends Component {
 
             <div className="layer1">
               <div style={{
-                  transform: this.state.divScale,
-                  transformOrigin: 'top'
-                }}>
+                width: '100%',
+                height: '100%',
+                transformOrigin: 'center',
+                transform: this.props.divScale
+              }}>
                   <Webs />
               </div>
             </div>
@@ -69,7 +42,6 @@ class Hero extends Component {
                 <div className="logoDivMargin"></div>
               </div>
             </div>
-
           </FullScrDiv>
     );
   }
