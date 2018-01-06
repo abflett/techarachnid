@@ -5,6 +5,10 @@
   background-color: black;
 }
 
+.layer {
+  fill: #000000;
+}
+
 .layer1 {
   fill: #ffffff;
 }
@@ -42,10 +46,7 @@
 
 .layer9 {
   fill: #216778;
-}
-
-.layer {
-  fill: #d38d5f;
+  animation: dripColor infinite 5s linear;
 }
 
 .layer10 {
@@ -82,6 +83,12 @@
   0%{transform: translate(0px, -10%);}
   90%{transform: translate(0px, -10%);}
   100%{transform: translate(0px, 2300%);}
+}
+
+@keyframes dripColor {
+  0%{fill: #00aad4;}
+  90%{fill: #0088aa;}
+  100%{fill: #00aad4;}
 }
 
 @keyframes wave1 {

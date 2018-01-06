@@ -14,7 +14,7 @@ class Cave extends Component {
                 transformOrigin: 'center',
                 transform: this.props.divScale
               }}>
-            <CaveSvg />
+            <CaveSvg {...this.props} />
           </div>
         </FullScrDiv>
     );

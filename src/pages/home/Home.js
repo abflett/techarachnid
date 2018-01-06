@@ -34,7 +34,6 @@ class Home extends Component {
   handleScroll() {
     const scrolls = window.pageYOffset || document.documentElement.scrollTop;
     this.setState({scrollPos: scrolls});
-    console.log(this.state.scrollPos);
   }
 
   componentDidMount() {
