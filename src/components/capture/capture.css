@@ -1,5 +1,22 @@
 .soon{
-  padding: 10%;
+  padding: 20%;
   text-align: center;
+  transform-origin: bottom;
   color:rgb(77, 77, 77);
+}
+
+.margins{
+  margin-top: 30px;
+}
+
+.email{
+  color:rgb(174, 185, 115);
+}
+
+a {
+  color:rgb(174, 185, 115);
+}
+
+div {
+  overflow: 'hidden'
 }

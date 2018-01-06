@@ -24,7 +24,6 @@ class FullScrToggle extends Component {
   }
  
   toggleFullScr = () => {
-    console.log(this.state.isFull);
     if (this.state.isFull){
       this.setState({ isFull: false });
     } else{
