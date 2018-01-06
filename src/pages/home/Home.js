@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../../components/Hero';
+import Cave from '../../components/Cave'
 
 class Home extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class Home extends Component {
     return (
       <div>
           <Hero />
+          <Cave />
       </div>
     );
   }

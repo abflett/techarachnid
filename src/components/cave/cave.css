@@ -1,0 +1,81 @@
+
+.taCaveSvg {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+
+}
+
+.layer1 {
+  fill: #ffffff;
+}
+
+.layer2 {
+  fill: #f4e3d7;
+}
+
+.layer3 {
+  fill: #deaa87;
+}
+
+.layer4 {
+  fill: #e9c6af;
+}
+
+.layer5 {
+  fill: #00aad4;
+}
+
+.layer6 {
+  fill: #0088aa;
+}
+
+.layer7 {
+  fill: #164450;
+}
+
+.layer8 {
+  fill: #deaa87;
+}
+
+.layer9 {
+  fill: #216778;
+}
+
+.layer {
+  fill: #d38d5f;
+}
+
+.layer10 {
+  fill: #d38d5f;
+}
+
+.layer11 {
+  fill: #c87137;
+}
+
+.layer12 {
+  fill: #a05a2c;
+}
+
+.layer13 {
+  fill: #784421;
+}
+
+.layer14 {
+  fill: #502d16;
+}
+
+.layer15 {
+  fill: #28170b;
+}
+
+.layer16 {
+  fill: #006680;
+}
+
+
+@keyframes move1 {
+  0%{transform: translate(0px, 0px);}
+  100%{transform: translate(20px, 0px);}
+}
