@@ -24,7 +24,7 @@ class Home extends Component {
     this.setState({height, width, scale});
 
     if(this.state.scale >= 1.0){
-      this.setState({divScale: "scale(" + this.state.scale * 1.1 + ")"});
+      this.setState({divScale: "scale(" + this.state.scale * 1.05 + ")"});
     }else if(this.state.scale <= 1.0){
       this.setState({divScale: "scale(" + 1.0 / this.state.scale + ")"});
     }else{
