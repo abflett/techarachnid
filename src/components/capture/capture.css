@@ -1,7 +1,6 @@
-.soon{
-  padding: 20%;
+.capture{
+  background-color: rgb(31, 31, 31);
   text-align: center;
-  transform-origin: bottom;
   color:rgb(77, 77, 77);
 }
 
@@ -15,8 +14,4 @@
 
 a {
   color:rgb(174, 185, 115);
-}
-
-div {
-  overflow: 'hidden'
 }

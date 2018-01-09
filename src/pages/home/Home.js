@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBar from '../../components/NavBar'
 import Hero from '../../components/Hero';
 import Cave from '../../components/Cave';
 import Capture from '../../components/Capture'
@@ -10,8 +11,6 @@ class Home extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.state = {height: window.innerHeight,
                   width: window.innerWidth,
-                  scale: window.innerHeight / window.innerWidth,
-                  divScale: 'scale(1)',
                   scrollPos: 0};
     
   }
@@ -19,17 +18,8 @@ class Home extends Component {
   scrResize(){
     const height = window.innerHeight,
           width = window.innerWidth;
-    const scale = height / width;
 
-    this.setState({height, width, scale});
-
-    if(this.state.scale >= 1.0){
-      this.setState({divScale: "scale(" + this.state.scale * 1.05 + ")"});
-    }else if(this.state.scale <= 1.0){
-      this.setState({divScale: "scale(" + 1.0 / this.state.scale + ")"});
-    }else{
-      this.setState({divScale: 'scale(1)'});
-    }
+    this.setState({height, width});
   }
 
   handleScroll() {
@@ -51,10 +41,15 @@ class Home extends Component {
  
   render() {
     return (
-      <div>
-          <Hero {...this.state} />
-          <Cave {...this.state} />
-          <Capture {...this.state} />
+      <div style={{
+        display: "flex",
+        flexDirection: "column"
+      }}>
+          <NavBar />
+          <Hero />
+          <Cave height={this.state.height}
+                scrollPos={this.state.scrollPos} />
+          <Capture />
       </div>
     );
   }

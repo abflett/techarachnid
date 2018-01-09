@@ -1,20 +1,35 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import RaisedButton from 'material-ui/RaisedButton';
-import AppBar from 'material-ui/AppBar';
+import React, { Component } from 'react';
 
-const NavBar = () => (
-    <AppBar 
-        zDepth='2'
-        showMenuIconButton='true'
-        title={
-            <Link className='appbar' to='/contact'>Tech Arachnid</Link>}
-            > 
-        <Link to='/test'><RaisedButton label="Test" /></Link>
-        <Link to='/'><RaisedButton label="Home" /></Link>
-        <Link to='/contact'><RaisedButton label="Contact" /></Link>
-    </AppBar>
-            
-);
+
+
+class NavBar extends Component {
+  render() {
+    return (
+        <div style={{
+            display: 'flex',
+            flexDirection: "row",
+            justifyContent: 'space-between',
+            position: 'fixed',
+            width: '100%',
+            minHeight: '5vh',
+            zIndex: 7,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        }}>
+          
+
+          <h2 style={{
+              padding: 0,
+              paddingRight: '5vw',
+              margin: 'auto auto auto 1vw'
+          }}>I make things that are flashy and move</h2>
+
+          <h1 style={{
+              padding: 0,
+              margin: 'auto 1vw auto auto'
+          }}>-Tech Arachnid</h1>
+        </div>
+    );
+  }
+}
 
 export default NavBar;

@@ -1,8 +1,8 @@
 
 .taCaveSvg {
-  height: 100%;
-  width: 100%;
-  background-color: black;
+  flex: none;
+  width: 100vmax;
+  height: 100vmax;
 }
 
 .layer {
