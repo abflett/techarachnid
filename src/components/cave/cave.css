@@ -100,7 +100,7 @@
 
 @keyframes wave2 {
   0%{transform: translate(0%, 0px);}
-  50%{transform: translate(20%, 0px);}
+  50%{transform: translate(10%, 0px);}
   100%{transform: translate(0%, 0px);}
 }
 

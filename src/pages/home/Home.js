@@ -45,7 +45,8 @@ class Home extends Component {
         display: "flex",
         flexDirection: "column"
       }}>
-          <NavBar />
+          <NavBar height={this.state.height}
+                  scrollPos={this.state.scrollPos} />
           <Hero />
           <Cave height={this.state.height}
                 scrollPos={this.state.scrollPos} />
