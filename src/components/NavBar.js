@@ -6,7 +6,7 @@ function Welcome() {
         padding: 0,
         paddingRight: '5vw',
         margin: 'auto auto auto 1vw',
-        fontSize: '3vmin'
+        fontSize: '4vmin'
     }}>Creating <span
     style={{
         color: 'rgb(241, 179, 98)'
@@ -22,7 +22,7 @@ function Welcome2() {
         padding: 0,
         paddingRight: '5vw',
         margin: 'auto auto auto 1vw',
-        fontSize: '3vmin'
+        fontSize: '4vmin'
     }}>Getting your <span
     style={{
         color: 'rgb(220, 167, 255'
@@ -66,7 +66,7 @@ class NavBar extends Component {
               textAlign: 'right',
               padding: 0,
               margin: 'auto 1vw auto auto',
-              fontSize: '3vmin'
+              fontSize: '4vmin'
           }}>Tech Arachnid</h1>
         </div>
     );
