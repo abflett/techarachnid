@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar'
 import Hero from '../../components/Hero';
 import Cave from '../../components/Cave';
 import Capture from '../../components/Capture'
+import Freedom from '../../components/Freedom'
 
 class Home extends Component {
   constructor() {
@@ -49,6 +50,8 @@ class Home extends Component {
                   scrollPos={this.state.scrollPos} />
           <Hero />
           <Cave height={this.state.height}
+                scrollPos={this.state.scrollPos} />
+          <Freedom height={this.state.height}
                 scrollPos={this.state.scrollPos} />
           <Capture />
       </div>

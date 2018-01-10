@@ -1,7 +1,9 @@
 .capture{
-  background-color: rgb(31, 31, 31);
+  padding-top: 20vh;
+  background-color: rgb(15, 0, 11);
   text-align: center;
-  color:rgb(77, 77, 77);
+  color:rgb(117, 117, 117);
+  font-size: 150%;
 }
 
 .margins{
@@ -9,9 +11,10 @@
 }
 
 .email{
-  color:rgb(174, 185, 115);
+  color:rgb(220, 167, 255);
 }
 
 a {
-  color:rgb(174, 185, 115);
+  color:rgb(220, 167, 255);
+  text-decoration: none;
 }

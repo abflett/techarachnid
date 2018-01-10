@@ -4,12 +4,12 @@ function Welcome() {
     return <h2 style={{
         alignSelf: 'center',
         padding: 0,
-        paddingRight: '5vw',
+        paddingRight: '2vw',
         margin: 'auto auto auto 1vw',
         fontSize: '4vmin'
     }}>Creating <span
     style={{
-        color: 'rgb(241, 179, 98)'
+        color: 'orange'
     }}>content</span> that <span
     style={{
         color: 'rgb(220, 167, 255'
@@ -20,7 +20,7 @@ function Welcome2() {
     return <h2 style={{
         alignSelf: 'center',
         padding: 0,
-        paddingRight: '5vw',
+        paddingRight: '2vw',
         margin: 'auto auto auto 1vw',
         fontSize: '4vmin'
     }}>Getting your <span
@@ -28,8 +28,40 @@ function Welcome2() {
         color: 'rgb(220, 167, 255'
     }}>product</span> out of the <span
     style={{
-        color: 'rgb(241, 179, 98)'
+        color: 'orange'
     }}>cave</span></h2>;
+}
+
+function Welcome3() {
+    return <h2 style={{
+        alignSelf: 'center',
+        padding: 0,
+        paddingRight: '2vw',
+        margin: 'auto auto auto 1vw',
+        fontSize: '4vmin'
+    }}>Giving <span
+    style={{
+        color: 'orange'
+    }}>freedom</span> to <span
+    style={{
+        color: 'rgb(220, 167, 255'
+    }}>still</span> images</h2>;
+}
+
+function Welcome4() {
+    return <h2 style={{
+        alignSelf: 'center',
+        padding: 0,
+        paddingRight: '2vw',
+        margin: 'auto auto auto 1vw',
+        fontSize: '4vmin'
+    }}><span
+    style={{
+        color: 'rgb(220, 167, 255'
+    }}>Email</span> me for <span
+    style={{
+        color: 'orange'
+    }}>custom</span> work!</h2>;
 }
 
 
@@ -41,11 +73,16 @@ class NavBar extends Component {
     
       calcPosition(thePosition) {
         const value = thePosition / this.props.height;
-        if(value > 0.7){
+        if(value > 0.7 && value < 1.7){
             return <Welcome2 />;
-        }
+        }else if(value >= 1.7 && value < 2.5){
+            return <Welcome3 />
+        }else if(value >= 2.5){
+            return <Welcome4 />
+        }else{
         return <Welcome />;
-      }
+        }
+    }
 
   render() {
     return (
@@ -62,12 +99,6 @@ class NavBar extends Component {
           
           {this.calcPosition(this.props.scrollPos)}
         
-          <h1 style={{
-              textAlign: 'right',
-              padding: 0,
-              margin: 'auto 1vw auto auto',
-              fontSize: '4vmin'
-          }}>Tech Arachnid</h1>
         </div>
     );
   }
