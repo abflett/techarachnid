@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import FreedomSvg from './freedom/freedomsvg';
-import './freedom/freedom.css'
+import FreedomSvg from './freedomsvg';
+import './freedom.css'
 
 
 class Freedom extends Component {

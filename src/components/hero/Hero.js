@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Logo from '../components/hero/logo'
-import Webs from '../components/hero/webs'
-import Lightning from '../components/hero/lightning'
-import './hero/hero.css'
+import Logo from '../hero/logo'
+import Webs from '../hero/webs'
+import Lightning from '../hero/lightning'
+import './hero.css'
 
 class Hero extends Component {
   render() {

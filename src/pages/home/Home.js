@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/NavBar'
-import Hero from '../../components/Hero';
-import Cave from '../../components/Cave';
-import Capture from '../../components/Capture'
-import Freedom from '../../components/Freedom'
+import Hero from '../../components/hero/Hero';
+import Cave from '../../components/cave/Cave';
+import Contact from '../../components/contact/Contact'
+import Freedom from '../../components/freedom/Freedom'
+import Who from '../../components/who/Who'
+import Location from '../../components/location/Location'
 
 class Home extends Component {
   constructor() {
@@ -49,11 +51,13 @@ class Home extends Component {
           <NavBar height={this.state.height}
                   scrollPos={this.state.scrollPos} />
           <Hero />
+          <Who />
           <Cave height={this.state.height}
                 scrollPos={this.state.scrollPos} />
+          <Location />
           <Freedom height={this.state.height}
                 scrollPos={this.state.scrollPos} />
-          <Capture />
+          <Contact />
       </div>
     );
   }

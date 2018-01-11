@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './cave/cave.css'
-import CaveSvg from './cave/cavesvg'
+import './cave.css'
+import CaveSvg from './cavesvg'
 
 
 class Cave extends Component {

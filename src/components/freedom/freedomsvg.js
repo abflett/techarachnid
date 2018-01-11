@@ -9,7 +9,7 @@ class Freedomsvg extends Component {
   }
 
   calcPosition(thePosition, speed = 0.995) {
-    const value = (this.props.height * 2 - thePosition) - ((this.props.height * 2 - thePosition) * speed);
+    const value = (this.props.height * 4 - thePosition) - ((this.props.height * 4 - thePosition) * speed);
     return value;
   }
 

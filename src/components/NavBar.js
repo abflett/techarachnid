@@ -7,13 +7,7 @@ function Welcome() {
         paddingRight: '2vw',
         margin: 'auto auto auto 1vw',
         fontSize: '4vmin'
-    }}>Creating <span
-    style={{
-        color: 'orange'
-    }}>content</span> that <span
-    style={{
-        color: 'rgb(220, 167, 255'
-    }}>captures</span> attention</h2>;
+    }}>Home - About - Services - Contact</h2>;
 }
 
 function Welcome2() {
@@ -93,7 +87,7 @@ class NavBar extends Component {
             position: 'fixed',
             width: '100%',
             minHeight: '5vh',
-            zIndex: 7,
+            zIndex: 10,
             backgroundColor: 'rgba(0, 0, 0, 0.5)'
         }}>
           

@@ -10,7 +10,7 @@ class CaveSvg extends Component {
 
   calcPosition(thePosition, speed = 0.995) {
     const vel = 1;
-    const value = (this.props.height - thePosition) - ((this.props.height - thePosition) * speed / vel);
+    const value = (this.props.height * 2 - thePosition) - ((this.props.height * 2 - thePosition) * speed / vel);
     return value;
   }
 
