@@ -5,7 +5,6 @@
   height: 100vh;
   font-size: 3vh;
   background-color: rgb(17, 0, 22);
-  color: rgb(134, 134, 134);
 }
 
 .wlayer1{
@@ -63,6 +62,7 @@
 }
 
 .whoweare{
+  font-size: 4vmin;
   overflow: hidden;
   padding: 2vmax;
   background-color: rgba(39, 0, 39, 0.90);

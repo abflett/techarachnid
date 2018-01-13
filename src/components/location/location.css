@@ -14,17 +14,25 @@
 }
 
 .div2{
-  align-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: rgb(31, 0, 31);
 }
 
 .locText{
-  text-align: center;
-  font-size: 5vmin;
-  padding: 5vmin;
+  padding-left: 5vmax;
+  padding-right: 5vmax;
+  font-size: 4vmin;
+}
+
+.locText2{
+
+  padding-left: 5vmax;
+  padding-right: 5vmax;
+  font-size: 4vmin;
 }
 
 

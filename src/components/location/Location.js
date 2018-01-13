@@ -12,7 +12,8 @@ class Location extends Component {
             <Map isMarkerShown />
           </div>
           <div className="div2">
-            <p className="locText">Tech Arachnid was founded by Adam Flett. We are located in the heart of Canada.</p>
+            <p className="locText">Tech Arachnid was founded by Adam Flett. Located in the heart of Canada. Our mission is to create fun interactive pieces</p>
+            <p className="locText2">We believe in freedom, and we create products to express that.</p>
           </div>
         </div>
     );
