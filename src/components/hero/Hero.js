@@ -7,7 +7,7 @@ import './hero.css'
 class Hero extends Component {
   render() {
     return (
-      <div className="main">
+      <div className="main" id="home">
           <div className="herobg"></div>
 
           <div className="shock1">

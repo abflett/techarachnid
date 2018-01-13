@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import NavBar from '../../components/NavBar'
+import NavBar from '../../components/navbar/NavBar'
 import Hero from '../../components/hero/Hero';
 import Cave from '../../components/cave/Cave';
 import Contact from '../../components/contact/Contact'
 import Freedom from '../../components/freedom/Freedom'
 import Who from '../../components/who/Who'
 import Location from '../../components/location/Location'
+import Footer from '../../components/footer/Footer'
 
 class Home extends Component {
   constructor() {
@@ -54,10 +55,12 @@ class Home extends Component {
           <Who />
           <Cave height={this.state.height}
                 scrollPos={this.state.scrollPos} />
+          
           <Location />
           <Freedom height={this.state.height}
                 scrollPos={this.state.scrollPos} />
           <Contact />
+          <Footer />
       </div>
     );
   }

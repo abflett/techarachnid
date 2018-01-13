@@ -16,6 +16,26 @@ class Cave extends Component {
       }}>
           <CaveSvg height={this.props.height}
                    scrollPos={this.props.scrollPos} />
+          
+          <div style={{
+            display: 'flex',
+            position: 'absolute',
+            width: '100%',
+            height: '100vh',
+            justifyContent: 'space-between',
+            flexDirection: 'column'
+          }}>
+            <div style={{
+            width: '100%',
+            height: '1vh',
+            background: 'linear-gradient(to bottom, black, rgba(34, 17, 3, 0))'
+            }} />
+            <div style={{
+            width: '100%',
+            height: '1vh',
+            background: 'linear-gradient(to top, black, rgba(34, 17, 3, 0))'
+            }} />
+          </div>
       </div>
     );
   }

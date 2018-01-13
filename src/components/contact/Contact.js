@@ -20,32 +20,20 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="contact">
-        <h1>New Section<br />
-          Coming Soon</h1>
-        <p>If you need work done</p>
-          
-          <button onClick={this.showDiv}>Contact us</button>
-          <div style={{
+      <div className="contact" id="contact">
+        <h3>Are you looking for a new design?</h3>
+        <p>We would love to talk to you. Whether it is an art piece, web application or just coffee. Whatever it is, we assure you that the conversation will be valuable to your business.</p>
+
+        <div className="contactbtn" onClick={this.showDiv}><p className="contactbtntext">Contact us</p></div>
+        
+        <div style={{
+          marginTop: '2vmin',
           width: '100%',
           height: '1000px',
           display: this.state.theDiv
         }}>       
           <Iframe title="Contact us" src="https://docs.google.com/forms/d/e/1FAIpQLSe5dk9dHL_YlcPDEh-tkpVh98xor-UDhSb5U8-Ei1eeYfvTtQ/viewform?embedded=true" height="100%" width="100%" />
-        
         </div>
-        <p>All the code for this site<br />
-          is available on <a href="https://github.com/abflett/techarachnid.com">GitHub</a>
-        </p>
-
-        <h3>I also have a <a href="https://youtu.be/1D4is2ybrks">YouTube</a> video
-        </h3>
-
-        <p>I go over the first steps of<br />
-          game design.
-        </p>
-        
-        
       </div>
     );
   }

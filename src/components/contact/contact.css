@@ -1,20 +1,29 @@
 .contact{
-  padding-top: 20vh;
-  background-color: rgb(15, 0, 11);
+  padding: 3vmin;
+  padding-bottom: 6vmin;
+  font-size: 4vmin;
   text-align: center;
-  color:rgb(117, 117, 117);
-  font-size: 150%;
 }
 
-.margins{
-  margin-top: 30px;
+.contactbtn {
+  color: rgb(250, 215, 245);
+  margin: auto;
+  padding: 2vmin;
+  width: 20vmin;
+  height: 5vmin;
+  border-radius: 1vmin;
+  background-color: blueviolet;
 }
 
-.email{
-  color:rgb(220, 167, 255);
+.contactbtn:hover{
+  background-color: rgb(247, 0, 255);
+  transform: scale(1.1);
+  cursor: pointer;
+  border-radius: 1vmin;
 }
 
-a {
-  color:rgb(220, 167, 255);
-  text-decoration: none;
+.contactbtntext{
+  margin: 0;
+  margin-top: -0.5vmin;
+  padding: 0;
 }

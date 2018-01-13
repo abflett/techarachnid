@@ -1,0 +1,46 @@
+.footer {
+  padding-bottom: 3vmax;
+  padding-top: 3vmax;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(10, 0, 10);
+  font-size: 4vmin;
+}
+
+.footer p{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer h4{
+  margin-bottom: 0;
+  padding-bottom: 1vmax;
+}
+
+.fsocial{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.highlight {
+  color: rgb(247, 0, 255);
+}
+
+.socialbox{
+  margin-top: 1vmax;
+  width: 4vmax;
+  height: 4vmax;
+}
+
+.squares{
+  fill: blueviolet;
+}
+
+.squares:hover{
+  fill: rgb(247, 0, 255);
+  transform: scale(1.2);
+}

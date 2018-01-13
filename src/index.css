@@ -3,13 +3,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: rgb(19, 0, 19);
-  color: rgb(201, 201, 201);
-}
-
-.map{
-  background-color: rgb(175, 0, 0);
-  width: 300px;
-  height: 300px;
+  color: rgb(161, 161, 161);
 }
 
 div {
@@ -19,4 +13,13 @@ div {
 
 .thecolorepicker{
   background-color: rgb(241, 179, 98);
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: rgb(247, 0, 255);
 }

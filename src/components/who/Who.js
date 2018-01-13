@@ -5,7 +5,7 @@ import './who.css'
 class Who extends Component {
   render() {
     return (
-        <div className="who">
+        <div className="who" id="about">
 
           <div className="wlayer1">
             <div className="innerstripe1">
@@ -39,7 +39,7 @@ class Who extends Component {
 
           <div className="wlayer6">
             <div className="whoweare">
-              <p>Meet Tech Arachnid! Getting your audience captured and product noticed is our goal. We achieve it through great user experience, and visual design. We strive to make product creation effortless and do care of its result. We are looking to extablish long-term partnerships.</p>
+              <p>Meet Tech Arachnid! Getting your audience captured and product noticed is our goal. We achieve it through great user experience, and visual design. We strive to make product creation effortless and do care of its result. We are looking to establish long-term partnerships.</p>
               <p>We get stills out of the cave!</p>
             </div>
           </div>

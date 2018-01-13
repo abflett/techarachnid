@@ -7,7 +7,7 @@ import Map from '../Map'
 class Location extends Component {
   render() {
     return (
-        <div className="location">
+        <div className="location" id="services">
           <div className="div1">
             <Map isMarkerShown />
           </div>
