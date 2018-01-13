@@ -5,7 +5,6 @@
   height: 100vh;
   overflow: hidden;
   background-color: rgba(31, 14, 0, 0);
-  animation: flowbg infinite 10s linear;
 }
 
 .div1{
@@ -16,23 +15,16 @@
 
 .div2{
   display: flex;
+  justify-content: space-around;
+
   flex-direction: column;
-  justify-content: center;
   width: 100%;
   height: 100%;
+  font-size: 3.5vmin;
 }
 
-.locText{
-  padding-left: 5vmax;
-  padding-right: 5vmax;
-  font-size: 4vmin;
-}
-
-.locText2{
-
-  padding-left: 5vmax;
-  padding-right: 5vmax;
-  font-size: 4vmin;
+.abouttext{
+  padding: 2vmin;
 }
 
 

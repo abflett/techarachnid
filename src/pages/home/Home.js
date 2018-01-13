@@ -52,11 +52,12 @@ class Home extends Component {
           <NavBar height={this.state.height}
                   scrollPos={this.state.scrollPos} />
           <Hero />
-          <Who />
+          <Location />
+          
           <Cave height={this.state.height}
                 scrollPos={this.state.scrollPos} />
           
-          <Location />
+          <Who />
           <Freedom height={this.state.height}
                 scrollPos={this.state.scrollPos} />
           <Contact />

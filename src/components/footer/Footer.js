@@ -9,7 +9,6 @@ class Footer extends Component {
       <div className="footer">
         <div className="faddress">
           <h4>Tech Arachnid</h4>
-          <p>194 Roch Ave</p>
           <p>Winnipeg, MB</p>
           <p>R2L 1P5</p>
         </div>

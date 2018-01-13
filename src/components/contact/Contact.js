@@ -22,7 +22,7 @@ class Contact extends Component {
     return (
       <div className="contact" id="contact">
         <h3>Are you looking for a new design?</h3>
-        <p>We would love to talk to you. Whether it is an art piece, web application or just coffee. Whatever it is, we assure you that the conversation will be valuable to your business.</p>
+        <p>We would love to talk to you. Whether it is an art piece or web application, we assure you that the outcome will be valuable to your business.</p>
 
         <div className="contactbtn" onClick={this.showDiv}><p className="contactbtntext">Contact us</p></div>
         
