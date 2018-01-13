@@ -28,7 +28,7 @@ class Hero extends Component {
           </div>
 
           <div className="layer3">
-          <Logo />
+            <Logo />
           </div>
 
           <div className="layer4">
