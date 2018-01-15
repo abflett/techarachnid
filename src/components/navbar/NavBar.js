@@ -28,6 +28,12 @@ function Welcome() {
                         <div className="contactbar"></div>
                     </div>
                 </Scroll>
+                <a href="https://blog.techarachnid.com" alt="Blog external site">
+                    <div className="homebox">
+                        <div>Blog</div>
+                        <div className="blogbar"></div>
+                    </div>
+                </a>
             </div>;
 }
 
@@ -57,6 +63,12 @@ function Welcome2() {
                         <div className="contactbar"></div>
                     </div>
                 </Scroll>
+                <a href="https://blog.techarachnid.com" alt="Blog external site">
+                    <div className="homebox">
+                        <div>Blog</div>
+                        <div className="blogbar"></div>
+                    </div>
+                </a>
             </div>;
 }
 
@@ -86,6 +98,12 @@ function Welcome3() {
                         <div className="contactbar"></div>
                     </div>
                 </Scroll>
+                <a href="https://blog.techarachnid.com" alt="Blog external site">
+                    <div className="homebox">
+                        <div>Blog</div>
+                        <div className="blogbar"></div>
+                    </div>
+                </a>
             </div>;
 }
 
@@ -115,6 +133,12 @@ function Welcome4() {
                         <div className="contactbar selected4"></div>
                     </div>
                 </Scroll>
+                <a href="https://blog.techarachnid.com" alt="Blog external site">
+                    <div className="homebox">
+                        <div>Blog</div>
+                        <div className="blogbar"></div>
+                    </div>
+                </a>
             </div>;
 }
 

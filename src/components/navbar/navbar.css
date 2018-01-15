@@ -14,23 +14,8 @@
 
 }
 
-.navBar li {
-  font-size: 3.5vmin;
-  padding-left: 4vmin;
-  display:inline;
-}
-
-.navBar ul {
-  margin-top: -0.1vmin;
-}
-
-.navBar li:hover {
-  cursor: pointer;
-  color: rgb(247, 0, 255);
-}
 
 .homebox{
-
   font-size: 3.5vmin;
   margin-left: 5vmin;
   text-align: center;
@@ -94,7 +79,7 @@
 .homebox:hover .servicesbar{
   margin: auto;
   background-color: rgb(247, 0, 255);
-  width: 13vmin;
+  width: 12vmin;
   height: 0.2vmin;
   animation: servicesanimate 1 0.5s linear;
 }
@@ -105,6 +90,14 @@
   width: 12vmin;
   height: 0.2vmin;
   animation: contactanimate 1 0.5s linear;
+}
+
+.homebox:hover .blogbar{
+  margin: auto;
+  background-color: rgb(247, 0, 255);
+  width: 6.5vmin;
+  height: 0.2vmin;
+  animation: bloganimate 1 0.5s linear;
 }
 
 @keyframes homeanimate {
@@ -119,10 +112,15 @@
 
 @keyframes servicesanimate {
   0%{width: 0vmin;}
-  100%{width: 13vmin;}
+  100%{width: 12vmin;}
 }
 
 @keyframes contactanimate {
   0%{width: 0vmin;}
   100%{width: 12vmin;}
+}
+
+@keyframes bloganimate {
+  0%{width: 0vmin;}
+  100%{width: 6.5vmin;}
 }
