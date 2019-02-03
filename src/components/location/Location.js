@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './location.css'
-import Map from '../Map'
+
 
 
 
@@ -18,7 +18,6 @@ class Location extends Component {
           </div>
           
           <div className="div1">
-            <Map isMarkerShown />
           </div>
           
         </div>

@@ -1,144 +1,87 @@
 import React, { Component } from 'react';
-import Scroll from 'react-scroll-to-element';
 import './navbar.css'
 
 function Welcome() {
     return <div className="theNavSelection">
-                <Scroll type="id" element="home">
                     <div className="homebox">
                         <div>Home</div>
                         <div className="homebar selected"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="about">
                     <div className="homebox">
                         <div>About</div>
                         <div className="aboutbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="services">
                     <div className="homebox">
                         <div>Services</div>
                         <div className="servicesbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="contact">
                     <div className="homebox">
                         <div>Contact</div>
                         <div className="contactbar"></div>
                     </div>
-                </Scroll>
-                <a href="https://blog.techarachnid.com" alt="Blog external site">
-                    <div className="homebox">
-                        <div>Blog</div>
-                        <div className="blogbar"></div>
-                    </div>
-                </a>
             </div>;
 }
 
 function Welcome2() {
     return <div className="theNavSelection">
-                <Scroll type="id" element="home">
                     <div className="homebox">
                         <div>Home</div>
                         <div className="homebar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="about">
                     <div className="homebox">
                         <div>About</div>
                         <div className="aboutbar selected2"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="services">
                     <div className="homebox">
                         <div>Services</div>
                         <div className="servicesbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="contact">
                     <div className="homebox">
                         <div>Contact</div>
                         <div className="contactbar"></div>
                     </div>
-                </Scroll>
-                <a href="https://blog.techarachnid.com" alt="Blog external site">
-                    <div className="homebox">
-                        <div>Blog</div>
-                        <div className="blogbar"></div>
-                    </div>
-                </a>
             </div>;
 }
 
 function Welcome3() {
     return <div className="theNavSelection">
-                <Scroll type="id" element="home">
                     <div className="homebox">
                         <div>Home</div>
                         <div className="homebar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="about">
                     <div className="homebox">
                         <div>About</div>
                         <div className="aboutbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="services">
                     <div className="homebox">
                         <div>Services</div>
                         <div className="servicesbar selected3"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="contact">
                     <div className="homebox">
                         <div>Contact</div>
                         <div className="contactbar"></div>
                     </div>
-                </Scroll>
-                <a href="https://blog.techarachnid.com" alt="Blog external site">
-                    <div className="homebox">
-                        <div>Blog</div>
-                        <div className="blogbar"></div>
-                    </div>
-                </a>
             </div>;
 }
 
 function Welcome4() {
     return <div className="theNavSelection">
-                <Scroll type="id" element="home">
                     <div className="homebox">
                         <div>Home</div>
                         <div className="homebar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="about">
                     <div className="homebox">
                         <div>About</div>
                         <div className="aboutbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="services">
                     <div className="homebox">
                         <div>Services</div>
                         <div className="servicesbar"></div>
                     </div>
-                </Scroll>
-                <Scroll type="id" element="contact">
                     <div className="homebox">
                         <div>Contact</div>
                         <div className="contactbar selected4"></div>
                     </div>
-                </Scroll>
-                <a href="https://blog.techarachnid.com" alt="Blog external site">
-                    <div className="homebox">
-                        <div>Blog</div>
-                        <div className="blogbar"></div>
-                    </div>
-                </a>
             </div>;
 }
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from '../../components/navbar/NavBar'
 import Hero from '../../components/hero/Hero';
 import Cave from '../../components/cave/Cave';
 import Contact from '../../components/contact/Contact'
@@ -49,8 +48,7 @@ class Home extends Component {
         display: "flex",
         flexDirection: "column"
       }}>
-          <NavBar height={this.state.height}
-                  scrollPos={this.state.scrollPos} />
+
           <Hero />
           <Location />
           
